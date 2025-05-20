@@ -8,7 +8,7 @@ TARGET_DIR="/var/log"
 # Log file to save deleted file list
 LOG_FILE="deleted_logs_$(date +%F_%T).log"
 
-echo "🧹 Cleaning .log files older than 7 days in $TARGET_DIR"
+echo " Cleaning .log files older than 7 days in $TARGET_DIR"
 echo "Deleted files log: $LOG_FILE"
 echo "Cleanup started at $(date)" > $LOG_FILE
 echo "-----------------------------------" >> $LOG_FILE
